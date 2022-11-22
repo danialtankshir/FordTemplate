@@ -1,0 +1,191 @@
+   * {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       outline: 0;
+       font-family: ford;
+       list-style: none;
+       text-decoration: none;
+   }
+
+   @font-face {
+       font-family: ford;
+       font-style: normal;
+       font-weight: normal;
+       src: url(../fonts/FordAntenna-Light.woff);
+       src: url(../fonts/FordAntenna-Light.woff2);
+   }
+
+   #navbar {
+       width: 1440px;
+       height: 105px;
+   }
+
+   #navbarul {
+       display: flex;
+   }
+
+   #logo {
+       width: 95px;
+       height: 37px;
+       margin-top: 32px;
+       margin-left: 175px;
+       filter: saturate(80%);
+   }
+
+   #firsttext {
+       padding-left: 50px;
+   }
+
+   .navbartext {
+       display: flex;
+       color: #2c8cbf;
+       padding-left: 30px;
+       margin-top: 40px;
+   }
+
+   .navbartext:hover {
+       color: #070039;
+   }
+
+   #mappin {
+       display: flex;
+       margin-top: 40px;
+       margin-left: 400px;
+       color: #2c8cbf;
+       padding-right: 20px;
+   }
+
+   #mappin i {
+       padding-right: 10px;
+       font-size: 23px;
+       color: #066399;
+   }
+
+   #magn i {
+       margin-top: 40px;
+       font-size: 23px;
+       color: #066399;
+   }
+
+   #earth {
+       display: flex;
+       margin-top: 40px;
+       margin-left: 30px;
+       color: #2c8cbf;
+   }
+
+   #earth i {
+       font-size: 23px;
+       color: #066399;
+       padding-right: 10px;
+   }
+
+   #titlebar {
+       width: 1440px;
+       height: 70px;
+       background-color: #fafafa;
+       border-top: 1px solid #d4d4d4;
+       margin: 0px auto;
+   }
+
+   #titlebar p {
+       margin-top: 18px;
+       margin-left: 135px;
+       font-size: 25px;
+       color: #233a75;
+       font-weight: bold;
+       user-select: none;
+   }
+
+   #creditbar {
+       width: 1440px;
+       height: 430px;
+   }
+
+   #creditbar h1 {
+       margin-left: 175px;
+       margin-top: 30px;
+       font-size: 40px;
+       letter-spacing: 1px;
+   }
+
+   #creditbar h5 {
+       margin-left: 175px;
+       margin-top: 15px;
+       font-weight: lighter;
+       font-size: 16px;
+   }
+
+   #creditbar ul {
+       margin-top: 30px;
+       margin-left: 215px;
+   }
+
+   #creditbar li {
+       list-style: disc;
+       margin-top: 3px;
+       font-weight: lighter;
+   }
+
+   #button {
+       display: block;
+       width: 400px;
+       height: 50px;
+       background-color: #0678bc;
+       margin-left: 175px;
+       margin-top: 20px;
+       transition: all 0.2s ease 0s;
+   }
+
+   #button:hover {
+       border: 1px solid black;
+       background-color: white;
+   }
+
+   #button p {
+       text-align: center;
+       padding-top: 12px;
+       color: white;
+   }
+
+   #button:hover p {
+       color: black;
+   }
+
+   #footerbox {
+       width: 1500px;
+       height: 50px;
+       margin-top: 20px;
+   }
+
+   #footerbox ul {
+       display: flex;
+       margin-left: 180px;
+   }
+
+   #footerlist {
+       display: flex;
+       color: #2c8cbf;
+       margin-top: 65px;
+       padding-right: 20px;
+       font-size: 13px;
+   }
+
+   #footerlist:hover {
+       color: black;
+   }
+
+   #version {
+       margin-top: 65px;
+       font-size: 13px;
+   }
+
+   #logofooter {
+       display: flex;
+       width: 95px;
+       height: 35px;
+       margin-top: 55px;
+       margin-left: 190px;
+       filter: saturate(80%);
+   }
